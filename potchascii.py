@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # Potchascii
-# version 0.2
+# version 0.3
 
 import sys, time
 from urllib import request, parse
@@ -11,7 +11,7 @@ def load_config():
     try:
         cfg = load(open('config.yml'))
     except:
-        sys.exit("Error: That config file doesn't seem to be valid. Are you sure you haven't messed it up somehow?")
+        sys.exit('Error: That config file doesn\'t seem to be valid. Are you sure you haven\'t messed it up somehow?')
     return cfg
 
 
@@ -93,6 +93,6 @@ if __name__ == '__main__':
             break
 
     if not city:
-        sys.exit("Error: Umm, I'm not quite sure what place you want me to show.")
+        sys.exit('Error: Umm, I\'m not quite sure what place you want me to show.')
 
     potchascii(city)
