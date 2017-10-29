@@ -1,0 +1,20 @@
+day-start: 7 # the earliest hour you go out
+day-end: 21 # the latest hour you come back
+default: LIB # default place to choose from the favorites
+glasses: true # show info about sunglasses?
+umbrella: true # show info about umbrella?
+favorites: 
+  - code: LIB
+    country: Czech_Republic
+    region: Liberec
+    town: Liberec
+  - code: PRG
+    country: Czech_Republic
+    region: Prague
+    town: Prague
+  - code: RBK
+    country: Czech_Republic
+    region: Ústí_nad_Labem
+    town: Rumburk
+
+
